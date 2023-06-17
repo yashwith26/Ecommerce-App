@@ -58,7 +58,7 @@ export function ProductCard({ product }) {
         }
         else {
             addToCart(authToken, product, dispatchData);
-            successToastmessage("Product added to wishlist");
+            successToastmessage("Product added to cart");
         }
     }
  

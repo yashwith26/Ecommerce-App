@@ -45,8 +45,8 @@ export function ProductlistPageAside() {
                     <p className="sub-heading">Price</p>
                     <div className="ranges">
                         <p>0</p>
-                        <p>2000</p>
-                        <p>4000</p>
+                        <p>2500</p>
+                        <p>4500</p>
                     </div>
                     <input className="price-slider" type="range" name="rangeInput" min="0" max="4000" value={filterState.maxPriceRange} onChange={(event) => priceRangeHandler(event)}/>
                 </div>
