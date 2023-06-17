@@ -1,0 +1,103 @@
+.selectedproduct-detail-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* height: 70vh; */
+    /* width: 60vw; */
+    width: 60rem;
+    margin: 4rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.selectedproduct-allinfo {
+    text-align: left;
+    width: 30rem;
+}
+
+.selectedproduct-img-container {
+    height: 90%;
+    width: 25rem;
+}
+
+.selectedproduct-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.selectedproduct-title-container > h1 {
+    font-size: 2.5rem;
+}
+
+.selectedproduct-rating-n-review {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    padding: 0.2rem 0.7rem;
+    width: 10rem;
+    border: 2px solid var(--dark-gray-color);
+}
+
+.selectedproduct-pricedetails {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.selectedproduct-price-details-ele {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.selectedproduct-actual-price {
+    margin-left: 0rem;
+}
+
+.selectedproduct-original-price {
+    text-decoration: line-through;
+    color: var(--gray-color);
+}
+
+.selectedproduct-discount {
+    color: var(--primary-color);
+}
+
+.taxes-text {
+    color: #03a685;
+    font-weight: 600;
+}
+
+.selectedproduct-btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+
+.selectedproduct-btns button {
+    text-decoration: none;
+    width: 100%;
+    border-radius: 5px;
+    color: var(--primary-color);
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    padding: 0.2rem 0.7rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.selectedproduct-btns button:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.selectedproduct-otherdetails {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.selectedproduct-otherdetails div {
+    margin-top: 1rem;
+}

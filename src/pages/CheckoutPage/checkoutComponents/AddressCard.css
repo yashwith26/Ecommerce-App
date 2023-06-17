@@ -1,0 +1,48 @@
+.address-card-n-btns {
+    width: 15rem;
+    border: 2px solid var(--gray-color);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.address-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.radio-input {
+    margin-right: 1rem;
+}
+
+.edit-dlt-btn {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit-btn {
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 0.2rem 0.7rem;
+    margin: 1rem 0rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.delete-btn {
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 0.2rem 0.7rem;
+    margin: 1rem 0rem;
+    font-weight: 600;
+    cursor: pointer;
+}

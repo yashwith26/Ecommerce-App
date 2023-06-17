@@ -1,41 +1,76 @@
+import Mockman from "mockman-js";
+import { Route, Routes } from "react-router-dom";
+
 import "./App.css";
-import logo from "./logo.png";
+import { Navbar } from "./components/Navbar/Navbar";
+import { HomePage } from "./pages/HomePage/HomePage";
+import { WishlistPage } from "./pages/WishlistPage/WishlistPage";
+import { CartPage } from "./pages/CartPage/CartPage";
+import { ProductlistPage } from "./pages/ProductlistPage/ProductlistPage";
+import { ProfilePage } from "./pages/ProfilePage/ProfilePage";
+import { LoginPage } from "./pages/AuthenticationPages/LoginPage/LoginPage";
+import { SignupPage } from "./pages/AuthenticationPages/signup/SignupPage";
+import { SingleproductPage } from "./pages/SingleproductPage/SingleproductPage";
+import { RequiresAuth } from "./utils/RequiresAuth"
+import { LogoutPage } from "./pages/AuthenticationPages/logout/LogoutPage";
+import { CheckoutPage } from "./pages/CheckoutPage/CheckoutPage";
+import { OrderplacedPage } from "./pages/OrderplacedPage/OrderplacedPage";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} alt="mockBee logo" width="180" height="180" />
-        <h1 className="brand-title">
-          Welcome to <span>mockBee!</span>
-        </h1>
-        <p className="brand-description">
-          Get started by editing <code>src/App.js</code>
-        </p>
-        <div className="links">
-          <a
-            href="https://mockbee.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Explore mockBee
-          </a>
-          <a
-            href="https://mockbee.netlify.app/docs/api/introduction"
-            target="_blank"
-            rel="noreferrer"
-          >
-            API Documentation
-          </a>
-          <a
-            href="https://github.com/neogcamp/mockBee"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Contribute
-          </a>
-        </div>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/productlist" element={<ProductlistPage />} />
+        <Route path="/productlist/:productId" element={<SingleproductPage />} />
+        <Route
+          path="/wishlist"
+          element={
+            <RequiresAuth>
+              <WishlistPage />
+            </RequiresAuth>
+          }
+        />
+        <Route
+          path="/cart"
+          element={
+            <RequiresAuth>
+              <CartPage />
+            </RequiresAuth>
+          }
+        />
+        <Route
+          path="/profile"
+          element={
+            <RequiresAuth>
+              <ProfilePage />
+            </RequiresAuth>
+          }
+        />
+        <Route
+          path="/checkout"
+          element={
+            <RequiresAuth>
+              <CheckoutPage />
+            </RequiresAuth>
+          }
+        />
+        <Route
+          path="/orderplaced"
+          element={
+            <RequiresAuth>
+              <OrderplacedPage />
+            </RequiresAuth>
+          }
+        />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/logout" element={<LogoutPage />} />
+        <Route path="/mockman" element={<Mockman />} />
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,125 @@
+.productcard-container {
+
+    height: 26.3rem;
+    width: 14rem;
+    margin: 2rem;
+    /* border: 2px solid black; */
+    color: #000000;
+    font-weight: 600;
+    border-radius: 5px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+ }
+ 
+ .productcard-container:hover {
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ 
+ .product-card {
+     color: #000000;
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .product-img-n-icon {
+     position: relative;
+ }
+ 
+ .wishlist-icon-container {
+     position: absolute;
+     top: 0.7rem;
+     right: 1rem;
+ }
+ 
+ .wishlist-icon {
+     font-size: 1.5rem;
+     color: var(--dark-gray-color);
+ }
+ 
+ .wishlist-icon:hover {
+     color: #fc0303;
+ }
+ 
+ .wishlist-icon-red {
+     font-size: 1.5rem;
+     color: #fc0303;
+ }
+ 
+ .product-img-container {
+     width: 14rem;
+ }
+ 
+ .product-img {
+     /* height: 16rem; */
+     height: 18rem;
+     width: 100%;
+     /* object-fit: fill; */
+     object-fit: cover;
+     /* object-fit: contain; */
+ }
+  
+ .product-info {
+     display: flex;
+     flex-direction: column;
+     padding: 0.5rem;
+ }
+ 
+ .product-title {
+     /* font-size: 1.1rem; */
+ }
+ 
+ .price-details {
+     display: flex;
+     justify-content: flex-start;
+ }
+ 
+ .price-details-ele {
+     margin: 0 0.6rem;
+ }
+ 
+ .actual-price {
+     margin-left: 0;
+ }
+ 
+ .original-price {
+     color: var(--gray-color);
+     text-decoration: line-through;
+ }
+ 
+ .discount {
+     color: var(--primary-color);
+ }
+ 
+ .rating-n-size {
+     display: flex;
+     /* justify-content: space-between; */
+ }
+ 
+ .size {
+     margin-left: 1.3rem;
+ }
+ 
+ .star-icon  {
+     color: #FFD700;
+ }
+ 
+ .addtocart-btn {
+     text-decoration: none;
+     width: 100%;
+     border-radius: 5px;
+     color: var(--primary-color);
+     background-color: #fff;
+     border: 2px solid var(--primary-color);
+     padding: 0.2rem 0.7rem;
+     margin-top: 1rem;
+     font-size: 1.2rem;
+     font-weight: 600;
+     cursor: pointer;
+ }
+ 
+ .addtocart-btn:hover {
+     color: #fff;
+     background-color: var(--primary-color);
+ }

@@ -1,0 +1,13 @@
+.spinner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.three {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}

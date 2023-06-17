@@ -1,0 +1,126 @@
+.cartproduct-card-container {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    /* height: 18.2rem; */
+    /* width: 24rem; for responsive */
+    width: 40rem;
+    /* border: 2px solid red; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    /* box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05), inset 0px 0px 0px 1px rgba(209, 213, 219,1); */
+    border-radius: 5px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.cartproduct-img-container {
+    width: 14rem;
+}
+
+.cartproduct-img {
+    /* height: 16rem; */
+    height: 18rem;
+    width: 100%;
+    /* object-fit: fill; */
+    object-fit: cover;
+    /* object-fit: contain; */
+}
+
+.cartproduct-details-container {
+    margin-left: 2rem;
+}
+
+.cartproduct-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.cartproduct-price-details {
+    display: flex;
+    justify-content: flex-start;
+    /* font-size: 1.3rem; */
+    margin-top: 1rem;
+}
+
+.price-det-ele {
+    margin: 0 0.6rem;
+}
+
+.actualprice {
+    margin-left: 0;
+}
+
+.originalprice {
+    color: var(--gray-color);
+    text-decoration: line-through;
+}
+
+.discountpercent {
+    color: var(--primary-color);
+}
+
+.cartproduct-size {
+    margin-top: 1rem;
+}
+
+.qty-btns-container {
+    margin-top: 1rem;
+}
+
+/* .qty-btns-container button {
+   
+} */
+
+.inc-icon, .dec-icon {
+    cursor: pointer;
+    margin: 0rem 1rem;
+    
+}
+
+.dec-icon {
+    margin-left: 0rem;
+}
+
+.remove-wishlist-btn-container {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.movetowishlist-btn {
+    text-decoration: none;
+    /* width: 100%; */
+    border-radius: 4px;
+    color: var(--primary-color);
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    padding: 0.2rem 0.7rem;
+    /* margin-top: 1rem; */
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.remove-btn {
+    text-decoration: none;
+    border-radius: 4px;
+    color: var(--secondary-color);
+    /* border: none; */
+    border: 2px solid var(--secondary-color);
+    background-color: #fff;
+    padding: 0.2rem 0.7rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.remove-wishlist-btn-container button:hover {
+    color: #fff; 
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.movetowishlist-btn {
+    margin-left: 1rem;
+}

@@ -10,7 +10,7 @@ import { addToWishlist, isWishlisted } from "../../../utils/wishlistService";
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { successToastmessage } from "../../../components/Toastmessage";
+import { successToastmessage } from "../../../components/Toastmessage/successToastmessage";
 
 export function CartProductCard({ product }) {
 
