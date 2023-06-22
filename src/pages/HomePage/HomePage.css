@@ -41,8 +41,7 @@
 }
 
 .heading {
-    text-decoration: underline;
-    color: #000000;
+    color: #0C134F;
 }
 
 .categories-list {
@@ -60,19 +59,21 @@
     font-size: 1.5rem;
     /* color: #59A5D8; */
     color: var(--primary-color);
-    margin: 0.5rem;
+    margin: 0.75rem;
 }
 
+
+
 .category-item {
-    /* border: 2px solid black; */
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-top: 4rem;
+    
+    
 }
 
 .category-item:hover{
     cursor: pointer;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     box-shadow: var(--primary-color) 0px 5px 15px;
+    transform: scale(1.03);
 }

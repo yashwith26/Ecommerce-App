@@ -22,7 +22,7 @@ export function Footer() {
                     </div>
                 </div>
                 <div className="footer-text">
-                    <p className="cr"><small>© 2023 | TopShop</small></p>
+                    <p className="cr"><small>© 2023 | Infinity</small></p>
                 </div>
             </div>
 

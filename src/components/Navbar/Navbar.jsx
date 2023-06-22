@@ -8,7 +8,7 @@ import { FilterContext } from "../../contexts/FilterProvider";
 import { ACTIONS } from "../../reducers/FilterReducer";
 import { AuthContext } from "../../contexts/AuthProvider";
 import { DataContext } from "../../contexts/DataProvider";
-// import Topshop_Logo from "assets/images";
+
 
 export function Navbar() {
 
@@ -35,7 +35,7 @@ export function Navbar() {
             <div className="nav-container">
                 <div >
                     <NavLink to="/" className="app-name">
-                        TopShop
+                        Infinity
                     </NavLink>
                 </div>
                 {/* <div className="app-logo">
@@ -45,7 +45,7 @@ export function Navbar() {
                     <input type="text" placeholder="Search" className="search-bar" onChange={(event) => searchTermSetter(event)}/>
                 </div>
                 <div className="navigations">
-                    <NavLink to="/productlist" className="right-nav shopnow-btn">Shop Now!</NavLink>
+                    <NavLink to="/productlist" className="right-nav shopnow-btn">Lets Shop</NavLink>
                     <NavLink to="/wishlist" className="right-nav icon">
                         <FontAwesomeIcon icon={faHeart} />{wishlistCount > 0 && <span className="wish-cart-count">({wishlistCount})</span>}
                     </NavLink>

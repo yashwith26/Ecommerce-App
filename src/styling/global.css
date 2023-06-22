@@ -1,15 +1,11 @@
 :root {
-    /* --primary-color: #000000; */
-    --primary-color: #E55807;
-    --secondary-color: #84D2F6;
+  
+    /* --primary-color: #E55807; */
+    --primary-color:#19376D;
+    /* --secondary-color: #84D2F6; */
+     --secondary-color: #19A7CE;
     --verylight-blue: #e8f0fe;
     --gray-color: #85888c;
     --dark-gray-color: #595b5e;
 }
 
-/* 
-4 combs
-1. #0052cc
-2. #386FA4
-3. #59A5D8
-4. #84D2F6 */
