@@ -42,7 +42,7 @@ export function Navbar() {
                     <img src="" alt="" />
                 </div> */}
                 <div>
-                    <input type="text" placeholder="Search" className="search-bar" onChange={(event) => searchTermSetter(event)}/>
+                    <input type="text" placeholder="Search for products" className="search-bar" onChange={(event) => searchTermSetter(event)}/>
                 </div>
                 <div className="navigations">
                     <NavLink to="/productlist" className="right-nav shopnow-btn">Lets Shop</NavLink>

@@ -36,10 +36,10 @@
 .search-bar {
     width: 20rem;
     height: 1rem;
-    border-radius: 25px;
+    border-radius: 10px;
     border: none;
     padding: 0.5rem;
-    background-color: #e5e5e8;
+    background-color: #DDE6ED;
 }
 
 .mobile-search-bar {

@@ -60,6 +60,7 @@
     /* color: #59A5D8; */
     color: var(--primary-color);
     margin: 0.75rem;
+    text-decoration: none;
 }
 
 
