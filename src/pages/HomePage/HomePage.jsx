@@ -46,7 +46,7 @@ export function HomePage() {
                                         <img className="category-img" src={image} alt="" />
                                     </div>
                                     <div className="category-name">
-                                        <h3>{categoryName}</h3>
+                                        <h3 className>{categoryName}</h3>
                                     </div>
                                 </div>
                             </NavLink>

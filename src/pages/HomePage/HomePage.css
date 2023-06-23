@@ -53,6 +53,7 @@
 
 .category-img {
     height: 20rem;
+    border-radius: 4rem;
 }
 
 .category-name {
@@ -60,18 +61,16 @@
     /* color: #59A5D8; */
     color: var(--primary-color);
     margin: 0.75rem;
-    text-decoration: none;
 }
 
 
 
 .category-item {
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-top: 4rem;
-    
-    
 }
+
 
 .category-item:hover{
     cursor: pointer;
