@@ -53,8 +53,8 @@
 
 .category-img {
     height: 20rem;
-    border-radius: 4rem;
-    margin-top: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .category-name {
@@ -63,6 +63,8 @@
     color: var(--primary-color);
     margin: 0.75rem;
 }
+
+
 
 
 
@@ -77,4 +79,8 @@
     cursor: pointer;
     box-shadow: var(--primary-color) 0px 5px 15px;
     transform: scale(1.03);
+}
+
+.categories-list a {
+    text-decoration: none;
 }

@@ -6,7 +6,7 @@ export function Footer() {
             <div className="footer-container">
                 <div className="navigations-footer">
                     <div>
-                        <a href="https://www.linkedin.com/in/yashwith-salian-888829173/" target="_blank" rel="noreferrer"  className="icon-footer">
+                        <a href="https://www.linkedin.com/in/yashwith-salian/" target="_blank" rel="noreferrer"  className="icon-footer">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
                     </div>
