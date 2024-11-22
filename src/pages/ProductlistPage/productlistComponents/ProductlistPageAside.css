@@ -81,3 +81,37 @@
 .sorts-filter-container div {
     margin: 0.3rem 0rem;
 }
+
+.size-checkbox{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+.gender-checkbox{
+    width: 17px;
+    height: 17px;
+}
+
+
+.label-gender{
+    font-size: 17px;
+}
+
+
+.size-check-contain{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.radio{
+    width: 17px;
+    height: 17px;
+}
+
+.stars-text{
+    font-size: 17px;
+}

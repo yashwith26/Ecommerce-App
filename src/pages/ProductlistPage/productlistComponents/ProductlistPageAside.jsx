@@ -37,8 +37,8 @@ export function ProductlistPageAside() {
                 <hr />
                 <div className="sorts-filter-container">
                     <p className="sub-heading">Sort by</p>
-                    <div><input type="radio" name="price-sorter" checked={filterState.sortBy === "LOWTOHIGH"} onChange={() => sortHandler("LOWTOHIGH")}/>Low to High</div>
-                    <div><input type="radio" name="price-sorter" checked={filterState.sortBy === "HIGHTOLOW"}  onChange={() => sortHandler("HIGHTOLOW")}/>High to Low</div>
+                    <div className="size-check-contain"><input className="radio" type="radio" name="price-sorter" checked={filterState.sortBy === "LOWTOHIGH"} onChange={() => sortHandler("LOWTOHIGH")}/>Low to High</div>
+                    <div className="size-check-contain"><input className="radio" type="radio" name="price-sorter" checked={filterState.sortBy === "HIGHTOLOW"}  onChange={() => sortHandler("HIGHTOLOW")}/>High to Low</div>
                 </div>
                 <hr />
                 <div className="price-slider-container">
@@ -53,26 +53,26 @@ export function ProductlistPageAside() {
                 <hr />
                 <div className="categories-filter-container">
                     <p className="sub-heading">Category</p>
-                    <div><input type="checkbox" checked={filterState.category.MEN} onChange={() => categoryHandler("MEN")}/><label>Men</label></div>
-                    <div> <input type="checkbox" checked={filterState.category.WOMEN} onChange={() => categoryHandler("WOMEN")}/><label>Women</label></div>
-                    <div><input type="checkbox" checked={filterState.category.KIDS} onChange={() => categoryHandler("KIDS")}/><label>Kids</label></div>
+                    <div className="size-check-contain"><input type="checkbox" className="gender-checkbox" checked={filterState.category.MEN} onChange={() => categoryHandler("MEN")}/><label className="label-gender">Men</label></div>
+                    <div className="size-check-contain"> <input type="checkbox" className="gender-checkbox" checked={filterState.category.WOMEN} onChange={() => categoryHandler("WOMEN")}/><label className="label-gender">Women</label></div>
+                    <div className="size-check-contain"><input type="checkbox" className="gender-checkbox" checked={filterState.category.KIDS} onChange={() => categoryHandler("KIDS")}/><label className="label-gender">Kids</label></div>
                 </div>
                 <hr />
                 <div className="sizes-filter-container">
                     <p className="sub-heading">Size</p>
-                    <div><input type="checkbox" checked={filterState.selectedSizes.includes("S")} onChange={() => sizeHandler("S")}/><label>S</label></div>
-                    <div><input type="checkbox" checked={filterState.selectedSizes.includes("M")} onChange={() => sizeHandler("M")}/><label>M</label></div>
-                    <div><input type="checkbox" checked={filterState.selectedSizes.includes("L")} onChange={() => sizeHandler("L")}/><label>L</label></div>
-                    <div><input type="checkbox" checked={filterState.selectedSizes.includes("XL")} onChange={() => sizeHandler("XL")}/><label>XL</label></div>
-                    <div><input type="checkbox" checked={filterState.selectedSizes.includes("XXL")} onChange={() => sizeHandler("XXL")}/><label>XXL</label></div>
+                    <div className="size-check-contain"><input type="checkbox" className="size-checkbox" checked={filterState.selectedSizes.includes("S")} onChange={() => sizeHandler("S")}/><label>S</label></div>
+                    <div className="size-check-contain"><input type="checkbox" className="size-checkbox" checked={filterState.selectedSizes.includes("M")} onChange={() => sizeHandler("M")}/><label>M</label></div>
+                    <div className="size-check-contain"><input type="checkbox" className="size-checkbox" checked={filterState.selectedSizes.includes("L")} onChange={() => sizeHandler("L")}/><label>L</label></div>
+                    <div className="size-check-contain"><input type="checkbox" className="size-checkbox" checked={filterState.selectedSizes.includes("XL")} onChange={() => sizeHandler("XL")}/><label>XL</label></div>
+                    <div className="size-check-contain"><input type="checkbox" className="size-checkbox" checked={filterState.selectedSizes.includes("XXL")} onChange={() => sizeHandler("XXL")}/><label>XXL</label></div>
                 </div>
                 <hr />
                 <div className="ratings-filter-container">
                     <p className="sub-heading">Rating</p>
-                    <div><input type="radio" name="rating-sorter" id="" checked={filterState.minRating === 4} onChange={() => ratingHandler(4)}/>4 stars & above</div>
-                    <div><input type="radio" name="rating-sorter" id="" checked={filterState.minRating === 3} onChange={() => ratingHandler(3)}/>3 stars & above</div>
-                    <div><input type="radio" name="rating-sorter" id="" checked={filterState.minRating === 2} onChange={() => ratingHandler(2)}/>2 stars & above</div>
-                    <div><input type="radio" name="rating-sorter" id="" checked={filterState.minRating === 1} onChange={() => ratingHandler(1)}/>1 stars & above</div>
+                    <div className="size-check-contain"><input className="radio" type="radio" name="rating-sorter" id="" checked={filterState.minRating === 4} onChange={() => ratingHandler(4)}/><label className="stars-text">4 stars & above</label></div>
+                    <div className="size-check-contain"><input className="radio" type="radio" name="rating-sorter" id="" checked={filterState.minRating === 3} onChange={() => ratingHandler(3)}/><label className="stars-text">3 stars & above</label></div>
+                    <div className="size-check-contain"><input className="radio" type="radio" name="rating-sorter" id="" checked={filterState.minRating === 2} onChange={() => ratingHandler(2)}/><label className="stars-text">2 stars & above</label></div>
+                    <div className="size-check-contain"><input className="radio" type="radio" name="rating-sorter" id="" checked={filterState.minRating === 1} onChange={() => ratingHandler(1)}/><label className="stars-text">1 stars & above</label></div>
                 </div>
                 <hr />
                 
