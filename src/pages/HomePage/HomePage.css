@@ -84,3 +84,13 @@
 .categories-list a {
     text-decoration: none;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .heading{
+        font-size: 1.2rem;
+    margin: 1px;
+    }
+    
+}
