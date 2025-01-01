@@ -92,5 +92,26 @@
         font-size: 1.2rem;
     margin: 1px;
     }
+
+    .categories-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .category-container {
+        margin-top: 1rem;
+    }
     
+    .category-name {
+        margin: 0;
+        padding: 2px 0 7px;
+    }
+
+    .category-img {
+        height: 17rem;
+        
+    }
+
 }
